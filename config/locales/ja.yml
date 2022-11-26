@@ -1,7 +1,7 @@
 ---
 ja:
   about:
-    about_mastodon_html: Mastodonは、オープンなウェブプロトコルを採用した、自由でオープンソースなソーシャルネットワークです。電子メールのような分散型の仕組みを採っています。
+    about_mastodon_html: wemoonは18歳以上のプレイヤーのみ参加できる創作男性キャラクターなりきりSNSです。システムにMastodonを利用しています。
     contact_missing: 未設定
     contact_unavailable: N/A
     hosted_on: Mastodon hosted on %{domain}
@@ -712,7 +712,7 @@ ja:
       no_status_selected: 何も選択されていないため、変更されていません
       open: 投稿を開く
       original_status: オリジナルの投稿
-      reblogs: ブースト
+      reblogs: リツイート
       status_changed: 投稿を変更しました
       title: 投稿一覧
       trending: トレンド
@@ -1255,9 +1255,9 @@ ja:
     poll:
       subject: "%{name} さんの投票が終了しました"
     reblog:
-      body: "%{name}さんにブーストされた、あなたの投稿があります:"
-      subject: "%{name}さんにブーストされました"
-      title: 新たなブースト
+      body: "%{name}さんにリツイートされた、あなたの投稿があります:"
+      subject: "%{name}さんにリツイートされました"
+      title: 新たなリツイート
     status:
       subject: "%{name}さんが投稿しました"
     update:
@@ -1416,7 +1416,7 @@ ja:
         other: "%{count}枚の画像"
       video:
         other: "%{count}本の動画"
-    boosted_from_html: "%{acct_link}からブースト"
+    boosted_from_html: "%{acct_link}からリツイート"
     content_warning: '閲覧注意: %{warning}'
     default_language: UIの表示言語
     disallowed_hashtags:
@@ -1430,7 +1430,7 @@ ja:
       direct: 返信したユーザーのみに表示される投稿はピン留めできません
       limit: 固定できる投稿数の上限に達しました
       ownership: 他人の投稿を固定することはできません
-      reblog: ブーストを固定することはできません
+      reblog: リツイートを固定することはできません
     poll:
       total_people:
         other: "%{count}人"
@@ -1445,12 +1445,12 @@ ja:
     title: '%{name}: "%{quote}"'
     visibilities:
       direct: ダイレクト
-      private: フォロワー限定
+      private: クローズ
       private_long: フォロワーにのみ表示されます
-      public: 公開
-      public_long: 誰でも見ることができ、かつ公開タイムラインに表示されます
-      unlisted: 未収載
-      unlisted_long: 誰でも見ることができますが、公開タイムラインには表示されません
+      public: オープン
+      public_long: 誰でも見ることができ、かつみんなのつぶやきに表示されます
+      unlisted: こっそり
+      unlisted_long: 誰でも見ることができますが、みんなのつぶやきには表示されません
   statuses_cleanup:
     enabled: 古い投稿を自動的に削除する
     enabled_hint: 設定した期間を過ぎた投稿は、以下の例外に該当しない限り、自動的に削除されます
@@ -1459,7 +1459,7 @@ ja:
     ignore_favs: 設定しない
     ignore_reblogs: 設定しない
     interaction_exceptions: インタラクションに基づく例外
-    interaction_exceptions_explanation: お気に入りやブーストの基準値を一度超えてしまった投稿は、基準値を下回った後であっても、削除される保証はありません。
+    interaction_exceptions_explanation: お気に入りやリツイートの基準値を一度超えてしまった投稿は、基準値を下回った後であっても、削除される保証はありません。
     keep_direct: ダイレクトメッセージを保持
     keep_direct_hint: ダイレクトメッセージを削除せずに残します
     keep_media: メディア付きの投稿を保持
@@ -1484,11 +1484,11 @@ ja:
     min_age_label: 投稿を保持する期間
     min_favs: お気に入りの基準値
     min_favs_hint: この数以上、お気に入りされた投稿を削除せずに残します。空白にしておくと、お気に入りに登録された数に関わらず投稿を削除します。
-    min_reblogs: ブーストの基準値
-    min_reblogs_hint: この数以上、ブーストされた投稿を削除せずに残します。空白にしておくと、ブーストされた数に関わらず投稿を削除します。
+    min_reblogs: リツイートの基準値
+    min_reblogs_hint: この数以上、リツイートされた投稿を削除せずに残します。空白にしておくと、リツイートされた数に関わらず投稿を削除します。
   stream_entries:
     pinned: 固定された投稿
-    reblogged: さんがブースト
+    reblogged: さんがリツイート
     sensitive_content: 閲覧注意
   strikes:
     errors:
